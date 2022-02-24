@@ -12,6 +12,11 @@ import {initI18n} from '@/utils/i18n'
 import bootstrap from '@/bootstrap'
 import 'moment/locale/zh-cn'
 
+import Viewer from 'v-viewer'
+import 'viewerjs/dist/viewer.css'
+
+
+
 const router = initRouter(store.state.setting.asyncRoutes)
 const i18n = initI18n('CN', 'US')
 
@@ -19,6 +24,11 @@ Vue.use(Antd)
 Vue.config.productionTip = false
 Vue.use(Viser)
 Vue.use(Plugins)
+Vue.use(Viewer, {
+  defaultOptions: {
+    zIndex: 9999
+  }
+})
 
 bootstrap({router, store, i18n, message: Vue.prototype.$message})
 

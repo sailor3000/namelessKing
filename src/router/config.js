@@ -51,34 +51,52 @@ const options = {
             }
           ]
         },
-        // {
-        //   path: 'form',
-        //   name: '表单页',
-        //   meta: {
-        //     icon: 'form',
-        //     page: {
-        //       cacheAble: false
-        //     }
-        //   },
-        //   component: PageView,
-        //   children: [
-        //     {
-        //       path: 'basic',
-        //       name: '基础表单',
-        //       component: () => import('@/pages/form/basic'),
-        //     },
-        //     {
-        //       path: 'step',
-        //       name: '分步表单',
-        //       component: () => import('@/pages/form/step'),
-        //     },
-        //     {
-        //       path: 'advance',
-        //       name: '高级表单',
-        //       component: () => import('@/pages/form/advance'),
-        //     }
-        //   ]
-        // },
+        {
+          path: 'record',
+          name: '戏录',
+          meta: {
+            icon: 'form',
+            page: {
+              cacheAble: false
+            }
+          },
+          component: PageView,
+          children: [
+            {
+              path: 'map',
+              name: '戏录(全)',
+              component: () => import('@/pages/record/starMap'),
+            },
+            {
+              path: 'enjoy',
+              name: '行动编号20211028',
+              component: () => import('@/pages/record/starMap'),
+            },
+          ]
+        },
+        {
+          path: 'map',
+          name: '星海旅行指南',
+          meta: {
+            icon: 'form',
+            page: {
+              cacheAble: false
+            }
+          },
+          component: PageView,
+          children: [
+            {
+              path: 'map',
+              name: '星图',
+              component: () => import('@/pages/map/starMap'),
+            },
+            {
+              path: 'enjoy',
+              name: '旅行实拍日记',
+              component: () => import('@/pages/map/enjoy'),
+            },
+          ]
+        },
         // {
         //   path: 'list',
         //   name: '列表页',
