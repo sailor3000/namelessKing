@@ -41,7 +41,7 @@ import {mapState} from 'vuex'
 
 export default {
   name: 'AdminHeader',
-  components: {IMenu, HeaderAvatar, HeaderNotice, HeaderSearch},
+  components: {IMenu, HeaderAvatar},
   props: ['collapsed', 'menuData'],
   data() {
     return {
