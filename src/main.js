@@ -12,8 +12,8 @@ import {initI18n} from '@/utils/i18n'
 import bootstrap from '@/bootstrap'
 import 'moment/locale/zh-cn'
 
-import Viewer from 'v-viewer'
-import 'viewerjs/dist/viewer.css'
+// import Viewer from 'v-viewer'
+// import 'viewerjs/dist/viewer.css'
 
 
 
@@ -24,11 +24,11 @@ Vue.use(Antd)
 Vue.config.productionTip = false
 Vue.use(Viser)
 Vue.use(Plugins)
-Vue.use(Viewer, {
-  defaultOptions: {
-    zIndex: 9999
-  }
-})
+// Vue.use(Viewer, {
+//   defaultOptions: {
+//     zIndex: 9999
+//   }
+// })
 
 bootstrap({router, store, i18n, message: Vue.prototype.$message})
 
