@@ -33,11 +33,11 @@
 </template>
 
 <script>
-import HeaderSearch from './HeaderSearch'
-import HeaderNotice from './HeaderNotice'
+// import HeaderSearch from './HeaderSearch'
+// import HeaderNotice from './HeaderNotice'
 import HeaderAvatar from './HeaderAvatar'
 import IMenu from '@/components/menu/menu'
-import {mapState, mapMutations} from 'vuex'
+import {mapState} from 'vuex'
 
 export default {
   name: 'AdminHeader',
