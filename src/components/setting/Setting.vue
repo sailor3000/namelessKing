@@ -68,10 +68,10 @@
           {{$t('other.multiPages')}}
           <a-switch :checked="multiPage" slot="actions" size="small" @change="setMultiPage" />
         </a-list-item>
-        <a-list-item>
+        <!-- <a-list-item>
           {{$t('other.hideSetting')}}
           <a-switch :checked="hideSetting" slot="actions" size="small" @change="setHideSetting" />
-        </a-list-item>
+        </a-list-item> -->
       </a-list>
     </setting-item>
     <a-divider />

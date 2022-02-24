@@ -51,17 +51,56 @@
       </a-col> -->
       <a-col>
         <a-card>
-          <a-timeline mode="alternate">
+          <a-timeline>
             <a-timeline-item>
               <a-collapse accordion class="gra">
-                <a-collapse-panel key="1" header="11111" class="fa">
-                  <p>222222222222222</p>
+                <a-collapse-panel key="1" header="新历元年 灾难" class="fa">
+                  <p>相传这一年技术实验灾难，技术核心失传，旧的文明格局分崩离析，南北格局初现眉目。</p>
                 </a-collapse-panel>
               </a-collapse>
             </a-timeline-item>
-            <a-timeline-item>初步排除网络异常 2015-09-01</a-timeline-item>
-            <a-timeline-item>技术测试异常 2015-09-01</a-timeline-item>
-            <a-timeline-item>网络异常正在修复 2015-09-01</a-timeline-item>
+            <a-timeline-item>
+              <a-collapse accordion class="gra">
+                <a-collapse-panel key="1" header="100年 鸣森" class="fa">
+                  <p>鸣森地区宗教形成。</p>
+                </a-collapse-panel>
+              </a-collapse>
+            </a-timeline-item>
+            <a-timeline-item>
+              <a-collapse accordion class="gra">
+                <a-collapse-panel key="1" header="500年 地区宗教" class="fa">
+                  <p>尼可西耶、卢米艾地区宗教形成</p>
+                </a-collapse-panel>
+              </a-collapse>
+            </a-timeline-item>
+            <a-timeline-item>
+              <a-collapse accordion class="gra">
+                <a-collapse-panel key="1" header="不可考年份 掠夺者" class="fa">
+                  <p>掠夺者出现</p>
+                </a-collapse-panel>
+              </a-collapse>
+            </a-timeline-item>
+            <a-timeline-item>
+              <a-collapse accordion class="gra">
+                <a-collapse-panel key="1" header="1300年 浮光" class="fa">
+                  <p>浮光地区势力崛起</p>
+                </a-collapse-panel>
+              </a-collapse>
+            </a-timeline-item>
+            <a-timeline-item>
+              <a-collapse accordion class="gra">
+                <a-collapse-panel key="1" header="3000年 奇袭浮光 联盟成立" class="fa">
+                  <p>云源帝国奇袭攻占浮光，浮光成为浮光大公国。梅西耶合众国成立。</p>
+                </a-collapse-panel>
+              </a-collapse>
+            </a-timeline-item>
+            <a-timeline-item>
+              <a-collapse accordion class="gra">
+                <a-collapse-panel key="1" header="3300年 星月夜事件" class="fa">
+                  <p>由于资源，领土多方面冲突，北方星域的云源帝国对南方星域的梅西耶合众国外围一颗工业殖民星球实施毁灭性打击，两个超级集团不宣而战，被称为“星月夜事件”。</p>
+                </a-collapse-panel>
+              </a-collapse>
+            </a-timeline-item>
           </a-timeline>
         </a-card>
       </a-col>
