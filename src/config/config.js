@@ -8,5 +8,6 @@ module.exports = {
   animate: {
     name: 'lightSpeed',
     direction: 'left'
-  }
+  },
+  useEslint: false,
 }
