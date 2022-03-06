@@ -3,7 +3,7 @@
     <a-row style="margin-top: 0" :gutter="[24, 24]">
       <a-col>
         <viewer :images="images">
-            <img src="../../../assets/img/starMap.png" class="map" alt="" srcset="">
+            <img src="../../../assets/img/starMap.jpg" class="map" alt="" srcset="">
         </viewer>
       </a-col>
     </a-row>

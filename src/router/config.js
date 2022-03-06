@@ -68,9 +68,24 @@ const options = {
               component: () => import('@/pages/record/starMap'),
             },
             {
-              path: 'enjoy',
+              path: 'xingdong',
               name: '行动编号20211028',
-              component: () => import('@/pages/record/starMap'),
+              component: () => import('@/pages/record/xingdong'),
+            },
+            {
+              path: 'yuesheng',
+              name: '月升之战',
+              component: () => import('@/pages/record/yuesheng'),
+            },
+            {
+              path: 'wugui',
+              name: '无归旅途',
+              component: () => import('@/pages/record/wugui'),
+            },
+            {
+              path: 'liulangang',
+              name: '流岚港战事',
+              component: () => import('@/pages/record/liulangang'),
             },
           ]
         },
