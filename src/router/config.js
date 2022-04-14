@@ -64,8 +64,13 @@ const options = {
           children: [
             {
               path: 'map',
-              name: '戏录(全)',
+              name: '戏录(最初-2022年3月)',
               component: () => import('@/pages/record/starMap'),
+            },
+            {
+              path: 'map414',
+              name: '戏录(2022年4月-？)',
+              component: () => import('@/pages/record/starMap414'),
             },
             {
               path: 'xingdong',

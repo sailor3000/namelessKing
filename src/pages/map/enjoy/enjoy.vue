@@ -1,11 +1,59 @@
 <template>
   <div class="analysis">
     <a-row style="margin-top: 0" :gutter="[24, 24]">
-      <a-col>
-        <viewer :images="images">
-            <img src="../../../assets/img/xierweisite.jpg" class="map" alt="" srcset="">
-            <div>西尔维斯特</div>
-        </viewer>
+      <a-col :span="24">
+        <a-card class="dflex">
+          <viewer :images="images">
+              <img src="../../../assets/img/xierweisite.jpg" class="map" alt="" srcset="">
+              <div class="map-name">西尔维斯特</div>
+          </viewer>
+
+          <!-- <viewer :images="images">
+              <img src="../../../assets/img/xierweisite.jpg" class="map" alt="" srcset="">
+              <div class="map-name">西尔维斯特</div>
+          </viewer>
+
+          <viewer :images="images">
+              <img src="../../../assets/img/xierweisite.jpg" class="map" alt="" srcset="">
+              <div class="map-name">西尔维斯特</div>
+          </viewer>
+
+          <viewer :images="images">
+              <img src="../../../assets/img/xierweisite.jpg" class="map" alt="" srcset="">
+              <div class="map-name">西尔维斯特</div>
+          </viewer>
+
+          <viewer :images="images">
+              <img src="../../../assets/img/xierweisite.jpg" class="map" alt="" srcset="">
+              <div class="map-name">西尔维斯特</div>
+          </viewer>
+
+          <viewer :images="images">
+              <img src="../../../assets/img/xierweisite.jpg" class="map" alt="" srcset="">
+              <div class="map-name">西尔维斯特</div>
+          </viewer>
+
+          <viewer :images="images">
+              <img src="../../../assets/img/xierweisite.jpg" class="map" alt="" srcset="">
+              <div class="map-name">西尔维斯特</div>
+          </viewer>
+
+          <viewer :images="images">
+              <img src="../../../assets/img/xierweisite.jpg" class="map" alt="" srcset="">
+              <div class="map-name">西尔维斯特</div>
+          </viewer>
+
+          <viewer :images="images">
+              <img src="../../../assets/img/xierweisite.jpg" class="map" alt="" srcset="">
+              <div class="map-name">西尔维斯特</div>
+          </viewer>
+
+          <viewer :images="images">
+              <img src="../../../assets/img/xierweisite.jpg" class="map" alt="" srcset="">
+              <div class="map-name">西尔维斯特</div>
+          </viewer> -->
+        </a-card>
+        
       </a-col>
     </a-row>
 
@@ -72,8 +120,23 @@ export default {
     border: none;
   }
 
-  .map {
-    width: 50%;
+  .dflex{
+    display: flex;
   }
 
+  .map {
+    width: 130px;
+    margin: 10px;
+  }
+
+  .map-name {
+    width: 150px;
+    text-align: center;
+    margin-top: 5px;
+  }
+
+  ::v-deep .dflex .ant-card-body {
+    display: flex;
+    flex-wrap: wrap;
+  }
 </style>
