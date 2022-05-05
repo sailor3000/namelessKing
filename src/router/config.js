@@ -95,6 +95,24 @@ const options = {
           ]
         },
         {
+          path: 'story',
+          name: '你的故事',
+          meta: {
+            icon: 'form',
+            page: {
+              cacheAble: false
+            }
+          },
+          component: PageView,
+          children: [
+            {
+              path: 'rose',
+              name: '少年与玫瑰[奥多芬斯]',
+              component: () => import('@/pages/story/rose'),
+            },
+          ]
+        },
+        {
           path: 'map',
           name: '星海旅行指南',
           meta: {

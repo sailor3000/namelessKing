@@ -51,7 +51,7 @@
           <viewer :images="images">
               <img src="../../../assets/img/xierweisite.jpg" class="map" alt="" srcset="">
               <div class="map-name">西尔维斯特</div>
-          </viewer> -->
+          </viewer> --> 
         </a-card>
         
       </a-col>
