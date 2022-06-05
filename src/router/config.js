@@ -64,12 +64,12 @@ const options = {
           children: [
             {
               path: 'map',
-              name: '戏录(最初-2022年3月)',
+              name: '戏录第一部分(最初-2022.3)',
               component: () => import('@/pages/record/starMap'),
             },
             {
               path: 'map414',
-              name: '戏录(2022年4月-？)',
+              name: '戏录第二部分(2022.4-？)',
               component: () => import('@/pages/record/starMap414'),
             },
             {
@@ -109,6 +109,16 @@ const options = {
               path: 'rose',
               name: '少年与玫瑰[奥多芬斯]',
               component: () => import('@/pages/story/rose'),
+            },
+            {
+              path: 'gold',
+              name: '金沙[Armor 诺维尔 加兰]',
+              component: () => import('@/pages/story/gold'),
+            },
+            {
+              path: 'training',
+              name: '特殊训练[天兵]',
+              component: () => import('@/pages/story/training'),
             },
           ]
         },
