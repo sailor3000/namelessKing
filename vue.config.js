@@ -1,3 +1,6 @@
+// import vitePluginRaw from 'vite-plugin-raw';
+// const path = require('path');
+
 let path = require('path')
 const webpack = require('webpack')
 const ThemeColorReplacer = require('webpack-theme-color-replacer')
@@ -46,6 +49,12 @@ module.exports = {
     //   }
     // }
   },
+  // plugins: [
+  //   vitePluginRaw({
+  //     match: /\.txt$/,
+  //     exclude: [new RegExp(path.resolve(__dirname, './src/assets'))]
+  //   })
+  // ],
   pluginOptions: {
     'style-resources-loader': {
       preProcessor: 'less',
@@ -67,6 +76,19 @@ module.exports = {
     )
     // Ignore all locale files of moment.js
     config.plugins.push(new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/))
+
+    config.module.rules.push({
+      // test: /\.txt$/,
+      // use: [{
+      //   loader: 'raw-loader', // 解决txt文件无法加载问题
+      //   options: {
+      //     prefix: false
+      //   }
+      // }]
+      test: /\.txt$/,
+      use: 'raw-loader'
+    })
+
     // 生产环境下将资源压缩成gzip格式
     if (isProd) {
       // add `CompressionWebpack` plugin to webpack plugins

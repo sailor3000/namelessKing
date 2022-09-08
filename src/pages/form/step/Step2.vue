@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div>
     <a-form style="max-width: 500px; margin: 40px auto 0;">
       <a-alert
@@ -80,4 +80,4 @@ export default {
       }
     }
   }
-</style>
+</style> -->

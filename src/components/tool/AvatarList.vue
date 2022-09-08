@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div class="avatar-list">
     <slot>
     </slot>
@@ -66,4 +66,4 @@ export default {
         }
       }
   }
-</style>
+</style> -->
