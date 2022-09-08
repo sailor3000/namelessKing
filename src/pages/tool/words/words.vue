@@ -2,6 +2,7 @@
   <div class="analysis">
     <a-row style="margin-top: 0" :gutter="[24, 24]">
       <a-col :span="24">
+        <div>开发中</div>
         <a-input v-model="qq" placeholder="输入你的qq号码" allow-clear />
         <a-button type="primary" @click="goSearch">查询</a-button>
         <div>总字数为：{{ num }}</div>
