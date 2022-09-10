@@ -103,14 +103,14 @@
             </a-timeline-item>
             <a-timeline-item>
               <a-collapse accordion class="gra">
-                <a-collapse-panel key="1" header="3300年 深空港探索掠夺者活动地点" class="fa">
+                <a-collapse-panel key="1" header="3350年 深空港探索掠夺者活动地点" class="fa">
                   <p>联盟与帝国在深空港魏先生的带领下对一颗流浪行星389HE进行了探测，掠夺者银色外壳与设施中不会说通用语的红眼睛女人引起了调查者的注意。</p>
                 </a-collapse-panel>
               </a-collapse>
             </a-timeline-item>
             <a-timeline-item>
               <a-collapse accordion class="gra">
-                <a-collapse-panel key="1" header="3300年 月升-雷顿区战" class="fa">
+                <a-collapse-panel key="1" header="3350年 月升-雷顿区战" class="fa">
                   <p>月升星系-因帝国在恒星附近引爆中子弹导致双方损失惨重，星系不再宜居，战役结束后，出现了亚空间异样，帝国的雷蒙德家族的幼子因此转而效忠联盟。</p>
                   <p>流岚港-联盟阻挠帝国修建星门，围绕七条航线展开战斗，战斗失败，但星门受到帝国内部阻力，最终没能修建成功。其中一条航线中，联盟研究掠夺者专家巴特勒博士被帝国劫持，却联盟海军营救时误伤而死。</p>
                 </a-collapse-panel>
@@ -118,21 +118,21 @@
             </a-timeline-item>
             <a-timeline-item>
               <a-collapse accordion class="gra">
-                <a-collapse-panel key="1" header="3300年 普雷斯顿-星球表面的登陆战" class="fa">
+                <a-collapse-panel key="1" header="3350年 普雷斯顿-星球表面的登陆战" class="fa">
                   <p>由于亚空间引起的动荡战局意外终止了。雷顿/塔城/梅西亚-帝国兵力疲软，虽然派出了一支全新的审判者舰队，却暂时被联盟占有。审判者舰队技术疑似与掠夺者有关。</p>
                 </a-collapse-panel>
               </a-collapse>
             </a-timeline-item>
             <a-timeline-item>
               <a-collapse accordion class="gra">
-                <a-collapse-panel key="1" header="3300年 技术节与毕业周" class="fa">
+                <a-collapse-panel key="1" header="3351年 技术节与毕业周" class="fa">
                   <p>联盟技术节上，巴特勒博士的爱徒洛思在一次学术会议后被绑架，后被意外救起。而在帝国庆典毕业周上，皇帝的心腹朝臣赐死了被视为叛国的雷蒙德家族，仅仅留下一个活口。</p>
                 </a-collapse-panel>
               </a-collapse>
             </a-timeline-item>
             <a-timeline-item>
               <a-collapse accordion class="gra">
-                <a-collapse-panel key="1" header="3300年 圣城战区" class="fa">
+                <a-collapse-panel key="1" header="3351年 圣城战区" class="fa">
                   <p>白云星星系：至暗远征军与卢米艾交战与浮光分立，审判者舰队带来的掠夺者的真相——掠夺者已经渗透进云源和梅西耶内部。由此展开的帝国上层动荡致使浮光脱离云源控制，云源先帝遇刺，女皇登基。</p>
                 </a-collapse-panel>
               </a-collapse>

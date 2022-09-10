@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div
     :class="['step-item', link ? 'linkable' : null]"
     @click="go"
@@ -56,4 +56,4 @@ export default {
       }
     }
   }
-</style>
+</style> -->

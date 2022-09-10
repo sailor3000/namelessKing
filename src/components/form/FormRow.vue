@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div class="form-row">
     <div class="label">
       <span>{{label}}</span>
@@ -48,4 +48,4 @@ export default {
       }
     }
   }
-</style>
+</style> -->

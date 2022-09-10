@@ -145,6 +145,24 @@ const options = {
             },
           ]
         },
+        {
+          path: 'tool',
+          name: '工具',
+          meta: {
+            icon: 'form',
+            page: {
+              cacheAble: false
+            }
+          },
+          component: PageView,
+          children: [
+            {
+              path: 'words',
+              name: '查字数',
+              component: () => import('@/pages/tool/words'),
+            },
+          ]
+        },
         // {
         //   path: 'list',
         //   name: '列表页',
