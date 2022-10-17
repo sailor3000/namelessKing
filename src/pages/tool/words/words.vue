@@ -54,7 +54,7 @@
       <a-col :span="24">
         <a-card>
           <div class="items">
-            <div class="til">2022年7月</div>
+            <div class="til">2022年8月</div>
             <a-button type="primary" @click="goSearch202208" class="search">查询</a-button>
             <div class="result">总字数为：{{ num202208 }}</div>
           </div>
@@ -63,9 +63,18 @@
       <a-col :span="24">
         <a-card>
           <div class="items">
-            <div class="til">2022年9月【至9月10日】</div>
+            <div class="til">2022年9月</div>
             <a-button type="primary" @click="goSearch202209" class="search">查询</a-button>
             <div class="result">总字数为：{{ num202209 }}</div>
+          </div>
+        </a-card>
+      </a-col>
+      <a-col :span="24">
+        <a-card>
+          <div class="items">
+            <div class="til">2022年10月【至10.17  15:30:00】</div>
+            <a-button type="primary" @click="goSearch202210" class="search">查询</a-button>
+            <div class="result">总字数为：{{ num202210 }}</div>
           </div>
         </a-card>
       </a-col>
@@ -91,6 +100,7 @@ import txt4 from './2022-5+6.txt';
 import txt5 from './2022-7.txt';
 import txt6 from './2022-8.txt';
 import txt7 from './2022-9.txt';
+import txt8 from './2022-10.txt';
 
 export default {
   name: 'words',
@@ -105,6 +115,7 @@ export default {
       num202207: 0,
       num202208: 0,
       num202209: 0,
+      num202210: 0,
       loading: false,
       total: null,
     }
@@ -210,10 +221,23 @@ export default {
           this.$message.error('小笨蛋，不要心急，等上一个查好了再查哦^ ^')
         }
       },1000)
-      
+    },
+    goSearch202210 () {
+      this.loading = true
+      setTimeout(() => {
+        if (this.loading == true) {
+          if (this.qq != '' && this.qq != null ) {
+            this.num202210 = this.getWords(txt8)
+          } else {
+            this.$message.error('小笨蛋，没有输入QQ号哦^ ^')
+          }
+        } else {
+          this.$message.error('小笨蛋，不要心急，等上一个查好了再查哦^ ^')
+        }
+      },1000)
     },
     sum () {
-      this.total = this.num2021 + this.num20220102 + this.num20220304 + this.num20220506 + this.num202207 + this.num202208 + this.num202209
+      this.total = this.num2021 + this.num20220102 + this.num20220304 + this.num20220506 + this.num202207 + this.num202208 + this.num202209 + this.num202210
     },
     getWords (text, num) {
       let qq = this.qq

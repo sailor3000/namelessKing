@@ -69,8 +69,13 @@ const options = {
             },
             {
               path: 'map414',
-              name: '戏录第二部分(2022.4-？)',
+              name: '戏录第二部分(2022.4-2022.7.31)',
               component: () => import('@/pages/record/starMap414'),
+            },
+            {
+              path: 'map731',
+              name: '戏录第三部分(2022.7.31-？)',
+              component: () => import('@/pages/record/starMap1017'),
             },
             {
               path: 'xingdong',
